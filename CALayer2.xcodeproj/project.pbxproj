@@ -15,6 +15,10 @@
 		B5895DCA1A757A1800CF9B33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5895DC91A757A1800CF9B33 /* Images.xcassets */; };
 		B5895DCD1A757A1800CF9B33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5895DCB1A757A1800CF9B33 /* LaunchScreen.xib */; };
 		B5895DD91A757A1900CF9B33 /* CALayer2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5895DD81A757A1900CF9B33 /* CALayer2Tests.m */; };
+		B5895DE41A757A6000CF9B33 /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5895DE21A757A6000CF9B33 /* b.jpg */; };
+		B5895DE51A757A6000CF9B33 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5895DE31A757A6000CF9B33 /* a.jpg */; };
+		B5895DE71A758F5800CF9B33 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = B5895DE61A758F5800CF9B33 /* mask.png */; };
+		B5895DE91A75929200CF9B33 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = B5895DE81A75929200CF9B33 /* pic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		B5895DD21A757A1900CF9B33 /* CALayer2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALayer2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5895DD71A757A1900CF9B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5895DD81A757A1900CF9B33 /* CALayer2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayer2Tests.m; sourceTree = "<group>"; };
+		B5895DE21A757A6000CF9B33 /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
+		B5895DE31A757A6000CF9B33 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		B5895DE61A758F5800CF9B33 /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+		B5895DE81A75929200CF9B33 /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,10 @@
 			children = (
 				B5895DBD1A757A1800CF9B33 /* AppDelegate.h */,
 				B5895DBE1A757A1800CF9B33 /* AppDelegate.m */,
+				B5895DE21A757A6000CF9B33 /* b.jpg */,
+				B5895DE81A75929200CF9B33 /* pic.png */,
+				B5895DE61A758F5800CF9B33 /* mask.png */,
+				B5895DE31A757A6000CF9B33 /* a.jpg */,
 				B5895DC31A757A1800CF9B33 /* ViewController.h */,
 				B5895DC41A757A1800CF9B33 /* ViewController.m */,
 				B5895DC61A757A1800CF9B33 /* Main.storyboard */,
@@ -202,8 +214,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5895DE41A757A6000CF9B33 /* b.jpg in Resources */,
 				B5895DC81A757A1800CF9B33 /* Main.storyboard in Resources */,
 				B5895DCD1A757A1800CF9B33 /* LaunchScreen.xib in Resources */,
+				B5895DE91A75929200CF9B33 /* pic.png in Resources */,
+				B5895DE51A757A6000CF9B33 /* a.jpg in Resources */,
+				B5895DE71A758F5800CF9B33 /* mask.png in Resources */,
 				B5895DCA1A757A1800CF9B33 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
