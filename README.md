@@ -57,12 +57,30 @@ self.maskLayer.backgroundColor = [UIColor blackColor].CGColor;
 ```
 
 
-Side Notes:
+## Side Notes:
+
+### Animations Functions
+```swift
+UIView.transitionFromView();
+
+overrride touchesBegan {}
+    UIView.beginAnimations();
+    UIView.setAnimationTransition();
+    UIView.seetAnimationDuration(1.0);
+    UIView.commitAnimations();
+}
+
+overrride touchesBegan {}
+    UIView.transitionWithView();
+    image.alpha = 0.5f;
+}
+
+```
+
+
 ```objc
 @property (nonatomic, assign) CGFloat curr;
 [self performSelector:@selector(method：) withObject:nil afterDelay:time];
 [NSObject cancelPreviousPerformRequestsWithTarget:self]
 [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(method:) object:nil]
 ```
-
-
